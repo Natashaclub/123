@@ -1,0 +1,49 @@
+canvas {
+    width: 100%;
+    height: 100vh;
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000;
+}
+.registration-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(255, 0, 221, 0.9%);
+    padding: 200px;
+    border-radius: 10px;
+    font-family: Poetsen One, sans-serif;
+    font-weight: 500;
+
+}
+
+.registration-form input[type="text"],
+.registration-form input[type="password"],
+.registration-form button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 15px;
+    width: 200px;
+    border: 1px solid;
+    border-radius: 10px;
+    box-sizing: border-box;
+    background-color: #ffffff55;
+}
+.registration-form button {
+    background-color: #292929;
+    color: white;
+    cursor: pointer;
+}
+.p-register-form{
+    color: rgba(141, 141, 141, 0.75);
+}
+button:hover {
+    background-color: #4b4b4b;
+}
